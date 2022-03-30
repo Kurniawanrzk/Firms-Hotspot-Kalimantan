@@ -1,0 +1,30 @@
+ #dari{
+    display: block;
+    border-color: #292b2c;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #292b2c;
+}
+
+ #sampai{
+    display: block;
+    border-color: #292b2c;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #292b2c;
+    margin-left: 2%;
+}
+
+label{
+    color: #292b2c;
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    padding: 1%;
+}
+
+a{
+    padding: 1%;
+}

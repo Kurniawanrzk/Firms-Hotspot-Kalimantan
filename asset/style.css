@@ -6,13 +6,24 @@
     color: #292b2c;
 }
 
- #sampai{
+ #jarak{
     display: block;
     border-color: #292b2c;
     border-radius: 5px;
     font-size: x-large;
     color: #292b2c;
-    margin-left: 2%;
+    height: 60%;
+    background-color: white;
+}
+
+#daerah{
+    display: block;
+    border-color: #292b2c;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #292b2c;
+    height: 60%;
+    background-color: white;
 }
 
 label{
@@ -21,7 +32,7 @@ label{
 }
 
 .form{
-    display: flex;
+  
     padding: 1%;
 }
 

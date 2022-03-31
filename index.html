@@ -11,22 +11,41 @@
     <div class="container-md">
         <div class="card">
             <div class="card-header">
-                <h2>Firms Hotspot Data Kalteng</h2>
+                <h2>Firms Data Hotspot Kalimantan</h2>
             </div>
             <div class="card-body">
                <div class="form">
                 <div class="first-input">
-                    <label for="dari">Dari Tanggal</label>
-                    <input type="date" name="" id="dari">
+                    <label for="dari">Tanggal</label>
+                    <input  type="date" name="" id="dari">
                 </div>
                 <div class="second-input">
-                    <label for="sampai">Sampai Tanggal</label>
-                    <input type="date" name="" id="sampai">
+                  <label for="daerah">Wilayah</label>
+                    <select name="" id="daerah">
+                      <option value="110.76,-3.62,115.74,0.74">Kalteng</option>W: 114.37°, N: -1.50°, E: 116.59°, S: -4.25°
+                      <option value="113.75,-2.27,119.05,4.40">Kaltim</option>
+                      <option value="114.37,-4.25,116.59,-1.50">Kalsel</option>
+                    </select>
+                </div>
+                <div class="third-input">
+                  <label for="jarak">Jarak Hari</label>
+                    <select  name="" id="jarak">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
                 </div>
                </div>
                <div>
-                   <a id="firms" href=""><button class="btn btn-dark">Buka</button></a>
-                <button class="btn btn-dark" onclick="changeHref()">Download</button>
+                   <a id="firms" onclick="ubahHref()" target="firmss" href=""><button class="btn btn-dark">Buka</button></a>
+               
                </div>
             </div>
         </div>

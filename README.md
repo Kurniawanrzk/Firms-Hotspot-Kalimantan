@@ -1,4 +1,8 @@
 # DESCRIPTION
+
+### How to Download The Csv?
+When You get directed to the csv data, u can just click ctrl + s and change the format into .csv 
+
 ### What i use ?
 - HTML,CSS And JS
 - FIRMS API And Bootstrap

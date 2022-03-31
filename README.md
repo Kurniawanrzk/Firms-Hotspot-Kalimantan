@@ -1,3 +1,3 @@
 # FIRMS Hotspot Kalimantan
 
-Website untuk mendapatkan data hotspot di wilayah kalimantan
+website untuk mendapatkan data hotspot di wilayah kalimantan

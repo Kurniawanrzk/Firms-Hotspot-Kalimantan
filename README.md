@@ -1,5 +1,4 @@
 # DESCRIPTION
-  ### This is a website application to get hotspot data in borneo/kalimantan using API FIRMS
 ### What i use ?
 - HTML,CSS And JS
 - FIRMS API And Bootstrap

@@ -12,6 +12,11 @@ function daerah(){
     return daerah;
     }
 
+    function satelit(){
+        var satelit = document.getElementById('satelit').value;
+        return satelit;
+        }
+
 function ubahHref(){
-document.getElementById('firms').href = 'https://firms.modaps.eosdis.nasa.gov/api/area/csv/f82ecddd747a02cc05d8053cf515ad97/VIIRS_SNPP_NRT/'+daerah()+'/'+jarak()+'/'+dari()+'/';
+document.getElementById('firms').href = 'https://firms.modaps.eosdis.nasa.gov/api/area/csv/f82ecddd747a02cc05d8053cf515ad97/'+satelit()+'/'+daerah()+'/'+jarak()+'/'+dari()+'/';
 }

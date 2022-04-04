@@ -27,13 +27,22 @@
     background-color: white;
 }
 
+#satelit{
+    display: block;
+    border-color: #292b2c;
+    border-radius: 5px;
+    font-size: x-large;
+    color: #292b2c;
+    height: 60%;
+    background-color: white;
+}
 label{
     color: #292b2c;
     font-size: larger;
 }
 
 .form{
-  
+
     padding: 1%;
 }
 
